@@ -1,4 +1,4 @@
-let navigation =["Home", "products", "menu","გამოიძახე" ];
+let navigation =["Home", "products", "menu","contacts" ];
 
 let links =[ "index.html", "product.html", "menu.html","order.html"];
 
