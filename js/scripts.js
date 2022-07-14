@@ -16,8 +16,8 @@ document.getElementById("nav").innerHTML = text;
 
 document.getElementById("nav").style.color = "#ffffff"
 
-const navbarli = document.querySelector("navbar li");
-const header = document.querySelector("header");
+// const navbarli = document.querySelector(".navbar li");
+const header = document.querySelector("header", "navbar li");
 
 window.addEventListener("scroll", e => {
   if (window.scrollY > 100) {
