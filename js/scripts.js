@@ -16,13 +16,17 @@ document.getElementById("nav").innerHTML = text;
 
 document.getElementById("nav").style.color = "#ffffff"
 
-
+const navbarli = document.querySelector("navbar li");
 const header = document.querySelector("header");
 
 window.addEventListener("scroll", e => {
   if (window.scrollY > 100) {
     header.classList.add("header-scroll");
+    navbarli.classList.add("navbar-li-scroll");
   } else {
     header.classList.remove("header-scroll");
+    navbarli.classList.remove("navbar-li-scroll");
   }
 });
+
+
