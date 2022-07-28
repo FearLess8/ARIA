@@ -1,6 +1,6 @@
-let navigation =["Home", "პროდუქცია", "ფერმა","საწარმო","მაღაზიები","გალერეა","კონტაქტი" ];
+let navigation =["Home","ფერმა" ,"პროდუქცია" ,"საწარმო","მაღაზიები","გალერეა","კონტაქტი" ];
 
-let links =[ "index.html", "product.html", "farm.html","factory.html","shops.html","galery.html","contacts.html"];
+let links =[ "index.html","farm.html" , "product.html","factory.html","shops.html","galery.html","contacts.html"];
 
 let navlen = navigation.length;
 
@@ -16,8 +16,8 @@ document.getElementById("nav").innerHTML = text;
 
 document.getElementById("nav").style.color = "#ffffff"
 
-// const navbarli = document.querySelector(".navbar li");
-const header = document.querySelector("header", "navbar li");
+const navbarli = document.querySelector(".navbar li");
+const header = document.querySelector("header", );
 
 window.addEventListener("scroll", e => {
   if (window.scrollY > 100) {
@@ -29,4 +29,19 @@ window.addEventListener("scroll", e => {
   }
 });
 
+
+function gamochena(){
+  document.getElementById("chatbox").
+   style.display="block";
+   document.getElementById("chat").
+   style.display="none"
+  
+
+}
+function gaqroba(){
+  document.getElementById("chatbox").
+   style.display="none";
+   document.getElementById("chat").
+   style.display="block"
+}
 
