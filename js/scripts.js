@@ -1,6 +1,6 @@
-let navigation =["Home","ფერმა" ,"პროდუქცია" ,"საწარმო","მაღაზიები","გალერეა","კონტაქტი" ];
+let navigation =["Home","ფერმა" ,"პროდუქცია" ,"საწარმო","მაღაზიები","კონტაქტი" ];
 
-let links =[ "index.html","farm.html" , "product.html","factory.html","shops.html","galery.html","contacts.html"];
+let links =[ "index.html","farm.html" , "product.html","factory.html","shops.html","contacts.html"];
 
 let navlen = navigation.length;
 

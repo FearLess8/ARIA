@@ -33,6 +33,12 @@
   background-repeat: no-repeat;
   background-position: fixed;
 }
+.shopsbody{
+  background-image: url(../img/magaziisfoto.png);
+  background-size: 100% 500px;
+  background-repeat: no-repeat;
+  background-position: fixed;
+}
  header {
     width: 100%;
     height: 100px;
@@ -156,6 +162,15 @@
 .ins:hover{
   background-image: url(../img/inswhite.png);
   z-index: 1;
+}
+.slider{
+  width: 100%;
+  height: 650px;
+  background-image: url(../img/contactphoto.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .Scontainer1{
@@ -321,7 +336,142 @@
   font-family: "ALK Rounded Mtav Med", sans-serif;
   font-size: 16px;
 }
+/* --------------FARM--------------------------------------------------------------------------------------------------------------------------------- */
+.farmsatauri, .factorysatauri,.shopssatauri{
+  font-family:"ALK Rounded Mtav Med", sans-serif;
+  font-size: 60px;
+  position: absolute;
+  top: 400px;
+  left: 500px;
+  color: white;
+}
+.bgferi, .bgferi2{
+  background-color: #f6f6f6;
+  width: 100%;
+  height: 1000px;
+  margin-top: 500px;
+ position: relative;
+}
+.farmtext, .factorytext, .shopstext{
+  width: 1000px;
+  margin-top: 50px;
+  left: 450px;
+  font-family:"ALK Rounded Mtav Med", sans-serif;
+  position: absolute;
+  font-size: 16px;
+  
+}
+.dzroxa{
+  width: 950px;
+  height: 256px;
+}
+.farmdiv2, .factorydiv2,.shopsdiv2{
+  width: 100%;
+  height: 300px;
+  background-image: url(../img/bgggg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 400px;
+  font-family:"ALK Rounded Mtav Med", sans-serif;
+}
+.farmdiv2 p, .factorydiv2 p,.shopsdiv2 p{
+  width: 400px;
+  height: 100px;
+ 
+}
+.farmdiv2 img,.factorydiv2 img,.shopsdiv2 img{
+  width: 500px;
+  height:  250px;
+}
+.farmmshobeli,.factorymshobeli,.shopsmshobeli{
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+.farmtext2, .factorytext2,.shopstext2{
+  /* background-color:rgba(172,210, 192, 0.8); */
+  padding: 10px;
+ 
+}
+.farmtext2 a, .factorytext2 a,.shopstext2 a{
+  padding: 10px 15px;
+  background-color:rgba(79, 39, 32, 1);
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  position: absolute;
+  top: 200px;
+  border-radius: 20px ;
+}
 
+
+
+.cotactpage{
+  background-color: white;
+  width: 100%;
+  height: 900px;
+  position: relative;
+  display: flex;
+
+
+}
+.contactinfo{
+  width: 700px;
+  height: 300px;
+  font-size: 16px;
+  margin: 0 auto;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  text-align: center;
+}
+.contactinfo i{
+  font-size: 26px;
+}
+.contactinfo p{
+  margin-top: 20px;
+}
+.contactchart{
+  width: 622px;
+  height: 520px;
+  text-align: center;
+  margin: 20px auto;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+}
+.contactchart input{
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: rgb(201, 196, 196);
+  outline: none;
+}
+.input{
+  width: 100%;
+  height: 130px;
+  margin-top: 20px;
+  resize: none;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 15px;
+  background-color: rgb(201, 196, 196);
+ 
+}
+.gagzavna{
+  
+  padding:15px 30px;
+  font-size: 16px;
+  background-color: rgb(211, 168, 28);
+  border-radius: 20px;
+  border: none;
+  position: absolute;
+  right: 900px;
+  top: 1480px;
+}
+
+  
+/* --------------------------------------------------------------------------------------------- */
 footer{
   width: 100%;
   height: 300px;
@@ -374,79 +524,10 @@ footer{
 }
 .ruka{
   width: 420px;
-  height: 250px;         
-  background-color: blue;
+  height: 250px;        
   position: absolute;
   right: 30px;
   top: 30px;
-}
-/* --------------FARM--------------------------------------------------------------------------------------------------------------------------------- */
-.farmsatauri, .factorysatauri{
-  font-family:"ALK Rounded Mtav Med", sans-serif;
-  font-size: 60px;
-  position: absolute;
-  top: 400px;
-  left: 500px;
-  color: white;
-}
-.bgferi, .bgferi2{
-  background-color: #f6f6f6;
-  width: 100%;
-  height: 1000px;
-  margin-top: 500px;
- position: relative;
-}
-.farmtext, .factorytext{
-  width: 1000px;
-  margin-top: 50px;
-  left: 450px;
-  font-family:"ALK Rounded Mtav Med", sans-serif;
-  position: absolute;
-  font-size: 16px;
-  
-}
-.dzroxa{
-  width: 950px;
-  height: 256px;
-}
-.farmdiv2, .factorydiv2{
-  width: 100%;
-  height: 300px;
-  background-image: url(../img/bgggg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  top: 400px;
-  font-family:"ALK Rounded Mtav Med", sans-serif;
-}
-.farmdiv2 p, .factorydiv2 p{
-  width: 400px;
-  height: 100px;
- 
-}
-.farmdiv2 img,.factorydiv2 img{
-  width: 500px;
-  height:  250px;
-}
-.farmmshobeli,.factorymshobeli{
-  width: 800px;
-  display: flex;
-  justify-content: space-between;
-  margin: 20px auto;
-}
-.farmtext2, .factorytext{
-  /* background-color:rgba(172,210, 192, 0.8); */
-  padding: 10px;
- 
-}
-.farmtext2 a, .factorytext2 a{
-  padding: 10px 15px;
-  background-color:rgba(79, 39, 32, 1);
-  color: rgb(255, 255, 255);
-  font-size: 22px;
-  position: absolute;
-  top: 200px;
-  border-radius: 20px ;
 }
 
 
