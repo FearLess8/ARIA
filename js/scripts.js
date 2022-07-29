@@ -1,6 +1,6 @@
-let navigation =["Home","ფერმა" ,"პროდუქცია" ,"საწარმო","მაღაზიები","კონტაქტი" ];
+let navigation =["Home","ფერმა" ,"მაღაზიები" ,"საწარმო","გალერეა","კონტაქტი" ];
 
-let links =[ "index.html","farm.html" , "product.html","factory.html","shops.html","contacts.html"];
+let links =[ "index.html","farm.html" ,"shops.html" ,"factory.html","product.html","contacts.html"];
 
 let navlen = navigation.length;
 
@@ -44,4 +44,19 @@ function gaqroba(){
    document.getElementById("chat").
    style.display="block"
 }
-
+$('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:true,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:3
+      },
+      1000:{
+          items:5
+      }
+  }
+})

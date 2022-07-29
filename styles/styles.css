@@ -16,9 +16,9 @@
 }
 .homebody{
     background-image: url(../img/BG.jpg);
-    background-size: 1920px 1007px;
+    background-size: 100% 100vh;
     background-repeat: no-repeat;
-    background-position: fixed;
+    /* background-position: fixed; */
    }
 
 .farmbody{
@@ -38,6 +38,20 @@
   background-size: 100% 500px;
   background-repeat: no-repeat;
   background-position: fixed;
+}
+.galerybody{
+  width: 100%;
+  height: 200px;
+  background-image: url(../img/beautiful-tree-middle-field-covered-with-grass-with-tree-line-background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.galerybody main{
+  background-color: rgba(254,251, 236, 0.9);
+  border-radius: 20px;
+  padding-bottom: 30px;
 }
  header {
     width: 100%;
@@ -66,7 +80,7 @@
 
   }
   .navbar li{
-    margin: 0 50px;
+    margin: 0 20px;
     padding: 10px ;
     border-radius: 20px;
     background-color:rgba(254,251, 236, 1);
@@ -78,6 +92,11 @@
     font-size: 20px;
     color: black;
     font-family: "ALK Rounded Mtav Med", sans-serif;
+  }
+  .burgermenu{
+    font-size: 48px;
+    margin: 20px;
+    display: none;
   }
   
   .navbar a:hover{
@@ -136,7 +155,20 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
   }
+  .gl{
+    width:220px;
+    margin: auto;
+    
+  }
+ .galery{
+   font-size: 50px;
+   margin-top: 150px;
+   border-bottom: 3px solid rgba(172,210, 192, 0.8);;
+   text-align: center;
+   font-family: "ALK Rounded Mtav Med", sans-serif;
+ }
 .fb{
     width: 50px;
     height: 50px; 
@@ -174,18 +206,22 @@
 }
 
 .Scontainer1{
-  width: 100%;
+  width: 1600px;
   height: 600px;
   padding: 50px;
   margin-top: 50px;
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   /* background-color: blue; */
+  margin: 50px auto;
 }
 
 .Scontainer1 img{
-  width: 325px;
+  width: 325px; 
   height: 405px;
-  margin-left: 450px;
+  margin-left: 250px;
   z-index: 2;
 }
 .decoration-border1{
@@ -193,16 +229,17 @@
   height: 405px;
   border: 1.5px solid rgb(201, 196, 196);
   position: absolute;
-  left: 570px;
-  top: 130px;
+  left: 390px;
+  top: 180px;
   z-index: -1;
 }
 .texts{
   width: 500px;
   height: 150px;
-  position: absolute;
+  margin-right:150px ;
+  /* position: absolute;
   top: 170px;
-  right: 390px;
+  right: 390px; */
   font-size: 20px;
 }
 .texts p{
@@ -214,18 +251,22 @@
 }
 /* -----------------------2-------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .Scontainer2{
-  width: 100%;
+  width: 1600px;
   height: 600px;
   padding: 50px;
   margin-top: 50px;
   position: relative;
-  /* background-color: blue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgb(234, 255, 46); */
+  margin: 50px auto;
 }
 
 .Scontainer2 img{
   width: 325px;
   height: 405px;
-  position: absolute;
+  margin-left: 1050px;
   right: 450px;
   z-index: 1;
   box-shadow: -80px -80px 0px rgba(172,210, 192, 0.8);
@@ -236,16 +277,15 @@
   height: 405px;
   border: 1.5px solid rgb(201, 196, 196);
   position: absolute;
-  right: 370px;
-  top: 130px;
+  right: 70px;
+  top: 170px;
   z-index: -1;
 }
 .texts2{
   width: 500px;
   height: 150px;
   position: absolute;
-  top: 170px;
-  left: 390px;
+  margin-left: 150px; 
   font-size: 20px;
 }
 .texts2 p{
@@ -271,6 +311,7 @@
   border-radius: 20px;
   font-family: "ALK Rounded Mtav Med", sans-serif;
   font-size: 16px;
+  background-attachment: fixed;
 }
 .chat:hover, .send:hover{
   background-color: rgba(172,210, 192, 0.8);
@@ -469,7 +510,35 @@
   right: 900px;
   top: 1480px;
 }
-
+.surcontainer,.qvedacont{
+  width: 79%;
+  height: 280px;
+  margin: 50px auto;
+  
+  display: flex;
+  flex-wrap: wrap;
+}
+.qvedacont{
+  margin-top: 10px;
+}
+.suratii{
+  width: 215px;
+  height: 260px;
+  background-color: black;
+  margin-left: 20px;
+  border-radius: 20px;
+  overflow:hidden ;
+}
+.zeda{
+  margin-top: 20px;
+}
+.qveda{
+  margin-bottom: 20px;
+}
+.suratii img{
+  width: 100%;
+  height: 260px;
+}
   
 /* --------------------------------------------------------------------------------------------- */
 footer{
@@ -485,10 +554,14 @@ footer{
 .Fcontainer{
   display: flex;
   justify-content: space-between; 
+  /* background-color: rgb(255, 255, 255); */
+  position: absolute;
+  right: 350px;
+  bottom: 50px;
 }
 .Ftext{
   height: 190px;
-  width: 380px;
+  width: 280px;
   margin-right: 20px;
   color: rgb(0, 0, 0);
   font-family: "ALK Rounded Mtav Med", sans-serif;
@@ -498,18 +571,18 @@ footer{
   margin-bottom: 15px;
 }
 .footerlogo{
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   position: absolute;
   top: 50px;
-  left: 100px;
+  right:1400px;
 }
 .footercontainer{
     width: 150px;
     height: 50px; 
     position: absolute;
     bottom: 30px;
-    right: 920px;
+    right: 120px;
     padding: 1px;
     display: flex;
     align-items: center;
@@ -523,23 +596,148 @@ footer{
   background-image: url(../img/insaria.png);
 }
 .ruka{
-  width: 420px;
-  height: 250px;        
+        
   position: absolute;
   right: 30px;
-  top: 30px;
+  top: 50px;
+
 }
+.ruka{
+  border:none; 
+  margin-top:  0;
+  margin-left: 0;
+  overflow: scroll;
+
+} 
+/* responsives------------------------------------------------------------------------ */
 
 
+@media only screen and (max-width: 1050px) {
+  .navbar{
+    display:none;
 
-@media only screen and (max-width: 768px) {
-  .homebody{
-    background-image: url(../img/BG.jpg);
-    background-size: 1000px 600px;
-    background-repeat: no-repeat;
-    background-position: fixed;
+  }
+  .burgermenu{
+    display: block;
+  }
+  .chat{
+    display: none;
   }
 
 
 }
- 
+@media only screen and (max-width: 1560px){
+  .F1{
+    display: none;
+  }
+  .footerlogo{
+    right: 1000px;
+  }
+}
+@media only screen and (max-width: 1430px) {
+  .Scontainer1{
+    width: 1400px;
+  }
+  .Scontainer1 img{
+    margin-left: 150px;
+  }
+  .decoration-border1{
+    left: 290px;
+  }
+  .Scontainer2{
+    width: 1400px;
+  }
+  .Scontainer2 img{
+    margin-left:850px;
+  }
+}
+@media only screen and (max-width: 768px ){
+  .homebody{
+    background-image: url(../img/BG.jpg);
+    background-size: 1400px 1000px; 
+    background-repeat: no-repeat;
+    background-position: fixed;
+   }
+   .surati{
+   display: none;
+  }
+  footer{
+    width: 1400px;
+  }
+  .Fcontainer,.footerlogo,.footercontainer,.ruka{
+    
+    margin-left: 500px;
+  }
+  .textbox{
+    left: 450px;
+  }
+}
+@media only screen and (max-width: 1024px ){
+  .homebody{
+    background-image: url(../img/BG.jpg);
+    background-size: 1400px 1000px; 
+    background-repeat: no-repeat;
+    background-position: fixed;
+   }
+   .surati{
+    display: none;
+   }
+   footer{
+     width: 1400px;
+   }
+   .Fcontainer,.footerlogo,.footercontainer,.ruka{
+     
+     margin-left: 500px;
+   }
+   .textbox{
+    left: 450px;
+  }
+ }
+ @media only screen and (max-width: 1180px ){
+  .homebody{
+    background-image: url(../img/BG.jpg);
+    background-size: 1400px 1000px; 
+    background-repeat: no-repeat;
+    background-position: fixed;
+   }
+   .surati{
+    display: none;
+   }
+   footer{
+     width: 1400px;
+   }
+   .Fcontainer,.footerlogo,.footercontainer,.ruka{
+     
+     margin-left: 500px;
+   }
+   .textbox{
+    left: 450px;
+  }
+  .chat{
+    display: none;
+  }
+ }
+ @media only screen and (max-width: 1180px ){
+  .homebody{
+    background-image: url(../img/BG.jpg);
+    background-size: 1400px 1000px; 
+    background-repeat: no-repeat;
+    background-position: fixed;
+   }
+   .surati{
+    display: none;
+   }
+   footer{
+     width: 1400px;
+   }
+   .Fcontainer,.footerlogo,.footercontainer,.ruka{
+     
+     margin-left: 500px;
+   }
+   .textbox{
+    left: 450px;
+  }
+  .chat{
+    display: none;
+  }
+ }
